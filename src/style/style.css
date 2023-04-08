@@ -1,4 +1,4 @@
-@media (width <= 640px) {
+@media (width <= 700px) {
   .nav-res {
     display: none;
   }
