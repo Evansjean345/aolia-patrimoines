@@ -1,0 +1,15 @@
+@media (width <= 640px) {
+  .nav-res {
+    display: none;
+  }
+  .container-res{
+    background: url('/images/home.png');
+    background-size: cover;
+    background-attachment: scroll;
+    background-attachment: fixed;
+  }
+}
+
+---var {
+  color: #0a0a31;
+}

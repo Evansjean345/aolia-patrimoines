@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!--NAVBAR START-->
+    <!--NAVBAR Widht>>640px -->
+    <nav class="nav-res navbar bg-[#0a0a31]">
+      <div class="flex-1 px-7">
+        <img src="/images/lhome.png" alt="" class="sm:h-[80px]" />
+      </div>
+      <div class="flex-none py-5 sm:mr-20">
+        <ul class="menu menu-horizontal px-7">
+          <li class="sm:text-xl text-white border-b-2">
+            <a href="index.html">Acceuil</a>
+          </li>
+          <li class="sm:text-xl text-white">
+            <a href="service.html">Nos Services</a>
+          </li>
+          <li class="sm:text-xl text-white">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--NAVBAR Widht << 640px -->
+    <nav class="navbar bg-[#0a0a31] sm:hidden">
+      <div class="navbar-start">
+        <div class="dropdown bg-[#0a0a31] text-white">
+          <label tabindex="0" class="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h7"
+              />
+            </svg>
+          </label>
+          <ul
+            tabindex="0"
+            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-[#0a0a31] rounded-box w-52"
+          >
+            <li><a href="index.html">Acceuil</a></li>
+            <li>
+              <a href="service.html">Nos Services</a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <img src="/images/lhome.png" alt="" class="sm:h-[80px] p-2" />
+      </div>
+    </nav>
+    <!--NAVBAR END-->
+    <!---SECTION START -->
+    <section>
+      <div
+        class="w-full h-[90vh] flex items-center justify-center"
+        style="background: url('/images/home.png'); background-size: cover ; background-attachment: fixed;"
+      >
+        <img src="/images/lhome.png" alt="" class="sm:h-[240px] sm:px-0 px-6" />
+      </div>
+    </section>
+    <!---SECTION END -->
+    <section
+      class="flex items-center h-[100px] justify-center text-gray-700 font-semibold px-8 sm:px-0"
+    >
+      <div class="flex sm:w-1/2 w-full justify-between">
+        <div>@2022 AOLIA PATRIMOINES</div>
+        <div>Terms of Services ° Privacy</div>
+      </div>
+    </section>
+    <source src="/src/index.js" />
+  </body>
+</html>
